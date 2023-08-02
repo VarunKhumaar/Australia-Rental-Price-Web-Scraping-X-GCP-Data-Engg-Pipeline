@@ -1,0 +1,4 @@
+gcsfs
+fsspec
+pandas
+pandas-gbq

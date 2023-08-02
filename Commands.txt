@@ -1,0 +1,19 @@
+cd C:\Users\varun\Downloads\Resume\Projects\Domain
+
+# https://www.youtube.com/watch?v=CHUxmVVH2AQ (can use this for reference for web scraping 101)
+
+
+echo. >Domain_webscraper.py             #Command to create new python file
+python -m venv env                      #Creating env 
+
+env\Scripts\activate                    #Activating
+
+
+#Packages
+pip3 install selenium==4.2.0
+pip3 install pandas
+pip3 install openpyxl
+pip3 install google-cloud-storage
+
+# Run the python file
+python Domain_webscraper.py
