@@ -1,7 +1,9 @@
 # Australia-Rental-Price-Web-Scraping-X-GCP-Data-Engg-Pipeline
 
-Introduction
+Data Engg End-to-End Pipeline:
 ![image](https://github.com/VarunKhumaar/Australia-Rental-Price-Web-Scraping-X-GCP-Data-Engg-Pipeline/assets/67249540/1db8e333-fe4b-404c-a858-5a9a3f47c872)
+
+
 
 
 - Extracted the Australia rental data from the real estate website _Domain.com.au_ using the Python library - Selenium
@@ -9,6 +11,9 @@ Introduction
 - Loaded the final data frame into the google cloud storage bucket
 - Used GCP Cloud functions to build a pipeline from storage bucket (trigger) to Big Query
 - Connected the Big Query to Tableau
+
+
+
 
 
 Final Dashboard: https://public.tableau.com/app/profile/varunkhumaar
